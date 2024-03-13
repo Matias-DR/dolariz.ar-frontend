@@ -1,10 +1,8 @@
-import {
-  BACK_HOST,
-  BACK_PORT
-} from './constants'
-
+import { BACK_BASE_URL } from '@/constants'
 import axios from 'axios'
 
-const api = axios.create({ baseURL: `${BACK_HOST}:${BACK_PORT}/api/dollar/` })
+export const baseURL = `${BACK_BASE_URL}`
+
+const api = axios.create({ baseURL })
 
 export default api

@@ -22,16 +22,7 @@
       }
     ],
     "paths": {
-      "@/*": [
-        "./app/*",
-        "./components/*"
-      ],
-      "local": [
-        "./.env/local"
-      ],
-      "production": [
-        "./.env/production"
-      ]
+      "@/*": ["./*"]
     }
   },
   "include": [

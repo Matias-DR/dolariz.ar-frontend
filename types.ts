@@ -14,3 +14,5 @@ export interface Dollar extends Record<string, number> {
 }
 
 export type Dollars = Record<Quotation, Dollar>
+
+export type Historic = Dollar[]
